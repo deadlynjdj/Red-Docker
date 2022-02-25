@@ -6,6 +6,7 @@ RUN set -eux; \
     apt-get install -y --no-install-recommends \
         # Red-DiscordBot required
         git \
+        psycopg2 \
         # ssh repo support
         openssh-client \
     ; \
