@@ -24,7 +24,7 @@ COPY root/ /
 
 CMD ["start-redbot.sh"]
 
-ARG PIP_REDBOT_VERSION=Red-DiscordBot
+ARG PIP_REDBOT_VERSION=Red-DiscordBot[postgres]
 
 RUN set -eux; \
     # Install requested version
